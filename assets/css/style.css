@@ -40,7 +40,7 @@ html {
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear alternate-reverse;
+  -webkit-animation: hue 7s infinite linear alternate-reverse;
 }
 
 @-webkit-keyframes hue {
