@@ -2,11 +2,11 @@
     #1d1938
     #78e2fe
     #f55fbd
+    #9f74d4d9
 } */
 
 html {
-  background:#1d1938;
-  margin: 0 4rem;
+  background: #1d1938;
 }
 
 .custom-bg {
@@ -14,16 +14,18 @@ html {
 }
 
 .custom-card-bg {
-  background-color: #f55fbd;
+  background-color: #9f74d4d9;
 }
 
+.custom-col {
+  margin-bottom: 5%;
+}
 .btn {
   background-color: #fb3566;
 }
 
 .gradient-text {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 6rem;
   font-weight: 100;
   letter-spacing: 2px;
   text-align: center;
