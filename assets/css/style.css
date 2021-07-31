@@ -40,11 +40,21 @@ html {
   );
 
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 7s infinite linear alternate-reverse;
+  animation: hue 7s infinite linear alternate-reverse;
 }
 
 @-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
